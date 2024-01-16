@@ -1,1 +1,4 @@
-<p>product-list works!</p>
+<h1>Mon catalogue produit</h1>
+
+<product-card *ngFor="let product of products" [myProduct]="product" 
+displayAddToCart="true"></product-card>

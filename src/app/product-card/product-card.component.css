@@ -1,0 +1,29 @@
+.root {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    img {
+        width: 80%;
+        margin: auto;
+    }
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-likes {
+    display: flex;
+    justify-content: space-around;
+}
